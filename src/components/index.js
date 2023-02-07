@@ -1,15 +1,8 @@
 import React from 'react';
-import {
-  SafeAreaView,
-  ScrollView,
-  StatusBar,
-  StyleSheet,
-  Text,
-  View,
-} from 'react-native';
+import { Text } from 'react-native';
 
 function MyComponent() {
-    return <h1>Hello World</h1>
+    return <Text>Hello World</Text>
 }
 
 export default MyComponent;
