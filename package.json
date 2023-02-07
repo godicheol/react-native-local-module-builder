@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "build": "rimraf dist && mkdirp dist && npm pack --pack-destination=\"./dist\""
+    "build": "rimraf build && mkdirp build && npm pack --pack-destination=\"./build\""
   },
   "peerDependencies": {
     "react": "*",
