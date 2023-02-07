@@ -1,9 +1,11 @@
 import React from 'react';
-import { Text } from 'react-native';
+import { View, Text, Image } from 'react-native';
 import Utils from '../utils/utils';
 
 function MyComponent() {
-    return <Text>Hello World</Text>
+    return <View>
+        <Text>Hello World</Text>
+    </View>
 }
 
 export default MyComponent;
