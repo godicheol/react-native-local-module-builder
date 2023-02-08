@@ -1,11 +1,12 @@
 import React from 'react';
-import { View, Text, Image } from 'react-native';
-import Utils from '../utils/utils';
+import { View, Text } from 'react-native';
 
-function MyComponent() {
-    return <View>
-        <Text>Hello World</Text>
-    </View>
+function App() {
+    return (
+        <View>
+            <Text>Hello World</Text>
+        </View>
+    )
 }
 
-export default MyComponent;
+export default App;
